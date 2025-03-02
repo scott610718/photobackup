@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LINE相簿備份管理</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>LINE相簿備份管理</h1>
+    
+    <div class="auth-section">
+      <h2>Google Drive授權</h2>
+      <div id="auth-status">尚未授權</div>
+      <button id="auth-button">授權Google Drive</button>
+      <input type="text" id="drive-folder" placeholder="Google雲端硬碟資料夾URL">
+      <button id="save-folder">儲存資料夾</button>
+    </div>
+    
+    <div class="groups-section">
+      <h2>群組管理</h2>
+      <div id="groups-list">
+        <!-- 群組列表將由JavaScript動態生成 -->
+      </div>
+    </div>
+  </div>
+  
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
