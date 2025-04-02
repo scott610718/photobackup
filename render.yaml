@@ -1,0 +1,13 @@
+
+services:
+  - type: web
+    name: line-webhook-server
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node webhook-server.js
+    envVars:
+      - key: LINE_ACCESS_TOKEN
+        sync: false
+      - key: LINE_CHANNEL_SECRET
+        sync: false
