@@ -1,0 +1,12 @@
+{
+  "albums": [
+    {
+      "id": "group12345",
+      "folderName": "家庭群組相簿"
+    },
+    {
+      "id": "group67890",
+      "folderName": "旅遊群組相簿"
+    }
+  ]
+}
